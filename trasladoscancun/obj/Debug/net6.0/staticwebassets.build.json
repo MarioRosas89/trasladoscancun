@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "AcaFXDTwGVvAzaYq+VukxGU1tFXZW/3cW7UI8Ey7ZNc=",
+  "Source": "trasladoscancun",
+  "BasePath": "_content/trasladoscancun",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "trasladoscancun\\wwwroot",
+      "Source": "trasladoscancun",
+      "ContentRoot": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\wwwroot\\",
+      "BasePath": "_content/trasladoscancun",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\wwwroot\\favicon.ico",
+      "SourceId": "trasladoscancun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\wwwroot\\",
+      "BasePath": "_content/trasladoscancun",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<div class="login-clean">
+<div class="sample-app-content">
+  <div class="form-body">
+    <div class="row">
+      <div class="form-holder">
+        <div class="form-content">
+          <form (ngSubmit)="save()" class="request-form ftco-animate fadeInUp ftco-animated">
+            <h2 id="tableLabel">Seleccione su traslado</h2>
+            <div class="d-flex form-group">
+              <div class="form-group mr-2 spaceRight">
+                <label for="from" class="label">Desde</label>
+                <mat-form-field>
+                  <input type="text" id="from" placeholder="Seleccione del listado" matInput [formControl]="myControl"
+                    [matAutocomplete]="auto" (keyup)="onKeyPress($event)" required class="form-control"
+                    [(ngModel)]="from" name="from">
+                  <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
+                    (optionSelected)="OnHumanSelectedFrom($event.option)">
+                    <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                      {{option}}
+                    </mat-option>
+                  </mat-autocomplete>
+                </mat-form-field>
+              </div>
+              <div class="form-group mr-2">
+                <label for="" class="label">Hacia</label>
+                <mat-form-field>
+                  <input type="text" placeholder="Seleccione del listado" matInput [formControl]="myControl"
+                    [(ngModel)]="to" name="to" [matAutocomplete]="autoTo" (keyup)="onKeyPress($event)" class="form-control" required>
+                  <mat-autocomplete #autoTo="matAutocomplete" (optionSelected)="OnSelectedTo($event.option)">
+                    <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                      {{option}}
+                    </mat-option>
+                  </mat-autocomplete>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="form-group mr-2">
+                <label for="" class="label">Fecha ida</label>
+
+                <input matInput [ngxMatDatetimePicker]="picker" placeholder="Fecha ida" [min]="minDate"
+                  [(ngModel)]="dateFrom" required name="dateFrom">
+                <mat-datepicker-toggle matSuffix [for]="$any(picker)"></mat-datepicker-toggle>
+                <ngx-mat-datetime-picker #picker [showSpinners]="true" [showSeconds]="false" [stepHour]="1"
+                  [stepMinute]="1" [stepSecond]="1" [touchUi]="false" [enableMeridian]="false" [disableMinute]="false">
+                </ngx-mat-datetime-picker>
+              </div>
+              <div class="form-group ml-2">
+                <label for="" class="label">Fecha regreso (Opcional)</label>
+
+                <input matInput [ngxMatDatetimePicker]="pickerTo" placeholder="Fecha regreso" [min]="minDate"
+                  [(ngModel)]="dateTo" name="dateTo">
+                <mat-datepicker-toggle matSuffix [for]="$any(pickerTo)"></mat-datepicker-toggle>
+                <ngx-mat-datetime-picker #pickerTo [showSpinners]="true" [showSeconds]="false" [stepHour]="1"
+                  [stepMinute]="1" [stepSecond]="1" [touchUi]="false" [enableMeridian]="false" [disableMinute]="false">
+                </ngx-mat-datetime-picker>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Reservar" class="btn btn-primary py-3 px-4">
+            </div>
+          </form>
+        </div>
+        <div class="row container-fluid" id="divshow">
+          <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="tickets">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Desde</th>
+                <th>Hacia</th>
+                <th>Precio</th>
+                <th>Reservar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let ticket of tickets">
+                <td><img src="/assets/images/yaris.jpeg" class="imgSize" title="car"> </td>
+                <td>{{ ticket.from }}</td>
+                <td>{{ ticket.to }}</td>
+                <td>${{ ticket.price }}</td>
+                <td> <input type="button" value="Reservar" class="btn btn-primary" (click)="save()"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

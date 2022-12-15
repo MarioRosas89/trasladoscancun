@@ -1,0 +1,56 @@
+<h1 id="tableLabel">Crear reserva</h1>
+
+<section class="sample-app-content">
+    <form [formGroup]="form" (ngSubmit)="onSubmitTemplateBased()">
+        <div class="form-body">
+            <div class="row">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items form-group">
+                            <h3>Confirmar reserva</h3>
+                            <p class="importantLabel">El transporte sera privado maximo para 4 personas con 3 maletas grandes.</p>
+                          
+
+                                <div class="col-md-12">
+                                    <input class="form-control" type="text"  placeholder="Nombre completo"
+                                    formControlName="clientname" id="clientname"
+                                        required>
+                                    <div class="valid-feedback">Nombre completo no es valido!</div>
+                                    <div class="invalid-feedback">Username field cannot be blank!</div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input class="form-control" type="email"  placeholder="E-mail"
+                                    formControlName="email" id="email"
+                                    required>
+                                    <div class="valid-feedback">Email no es valido!</div>
+                                    <div class="invalid-feedback">Email field cannot be blank!</div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input class="form-control" type="text"  placeholder="Telefono"
+                                    formControlName="phoneNumber" id="phoneNumber"
+                                    required>
+                                    <div class="valid-feedback">Email no es valido!</div>
+                                    <div class="invalid-feedback">Email field cannot be blank!</div>
+                                </div>
+
+                                <p class="spaceP">
+                                    <label>Hacia: {{ticket.to}}</label>
+                                </p>
+                                <p class="spaceP">
+                                    <label>Desde: {{ticket.to}}</label>
+                                </p>
+                                <p class="spaceP">
+                                    <label>Total: ${{ticket.price}}</label>
+                                </p>
+                                <div class="form-button mt-3">
+                                    <button id="submit" type="submit" class="btn btn-primary">Aceptar</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>

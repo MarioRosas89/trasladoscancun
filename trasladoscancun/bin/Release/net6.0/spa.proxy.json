@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44494",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
