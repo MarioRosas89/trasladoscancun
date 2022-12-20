@@ -63,3 +63,8 @@ C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\ne
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\trasladoscancun.pdb
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\trasladoscancun.genruntimeconfig.cache
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\ref\trasladoscancun.dll
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\staticwebassets\msbuild.trasladoscancun.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\staticwebassets\msbuild.build.trasladoscancun.props
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.trasladoscancun.props
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.trasladoscancun.props
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\staticwebassets.pack.json

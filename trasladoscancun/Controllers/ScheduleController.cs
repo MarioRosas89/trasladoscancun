@@ -27,7 +27,7 @@ namespace TransferEconomic.Controllers
                     Utils.sendEmail(schedule.Email, html);
                     //Send email to driver
                     Utils.sendEmail("mrosasg103@gmail.com", html);
-                    //Utils.SendWhatsapp();
+                    Utils.SendWhatsapp("reservo");
                 }
                
                 return schedule;

@@ -10,6 +10,7 @@ import { MyModalComponent } from '../my-modal/my-modal.component';
 import { Ticket } from './Ticket';
 import { NavigationExtras, Router } from '@angular/router';
 import { PlacesService } from './place.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -49,7 +50,7 @@ export class HomeComponent implements OnInit {
   //Termina datepicker
   private _placesData$ = new BehaviorSubject<void>(undefined);
   constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string, public dialog: MatDialog
-  ,private _router: Router, private userService: PlacesService){
+  ,private _router: Router, private userService: PlacesService,private spinnerService: NgxSpinnerService){
     
   }
 
@@ -68,12 +69,14 @@ export class HomeComponent implements OnInit {
   );
 
   getPlaces(){
+    this.spinnerService.show();
     this.userService.getPlaces().subscribe({
       next : (result) => {this.optionsPlaces = result.map(x => x.name)
         this.optionsFull = result.map(x => x.name)
         this.places = result;
+        this.spinnerService.hide();
       }, 
-      error : (error) => console.error(error)
+      error : (error) => {console.error(error); this.spinnerService.hide();}
     })
   }
 
@@ -126,6 +129,7 @@ export class HomeComponent implements OnInit {
             "to": this.to,
             "name": "",
             "dateFrom": new Date(),
+            "dateTo": new Date(),
             "phoneNumber": ""
           } 
         })

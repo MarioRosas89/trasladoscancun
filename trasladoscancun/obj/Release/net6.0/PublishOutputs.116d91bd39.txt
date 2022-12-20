@@ -42,9 +42,11 @@ C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\ne
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\trasladoscancun.deps.json
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\3rdpartylicenses.txt
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\assets\images\logo.png
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\assets\images\WhatsApp-logo-12.webp
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\assets\images\yaris.jpeg
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\index.html
-C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\main.0cfd112253a3bc7b.js
+C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\main.0aa9720c2e0cac75.js
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\polyfills.a65aa280560a3358.js
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\runtime.543e86d17a9d1ecf.js
 C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\obj\Release\net6.0\PubTmp\Out\wwwroot\styles.ebaef1dfffad9fd3.css

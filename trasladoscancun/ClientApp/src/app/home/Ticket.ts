@@ -7,5 +7,6 @@ export class Ticket {
   to: string | undefined;
   name: string | undefined;
   dateFrom: Date | undefined;
+  dateTo: Date | undefined;
   phoneNumber: string | undefined;
 }
