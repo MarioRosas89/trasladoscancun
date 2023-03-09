@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = trasladoscancun
 build_property.RootNamespace = trasladoscancun
-build_property.ProjectDir = C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun\
+build_property.ProjectDir = C:\Users\mario\Source\Repos\MarioRosas89\trasladoscancun\trasladoscancun\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mario.rosas\source\repos\trasladoscancun\trasladoscancun
+build_property.MSBuildProjectDirectory = C:\Users\mario\Source\Repos\MarioRosas89\trasladoscancun\trasladoscancun
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mario.rosas/source/repos/trasladoscancun/trasladoscancun/Pages/Error.cshtml]
+[C:/Users/mario/Source/Repos/MarioRosas89/trasladoscancun/trasladoscancun/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mario.rosas/source/repos/trasladoscancun/trasladoscancun/Pages/_ViewImports.cshtml]
+[C:/Users/mario/Source/Repos/MarioRosas89/trasladoscancun/trasladoscancun/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

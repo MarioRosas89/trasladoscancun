@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AcaFXDTwGVvAzaYq+VukxGU1tFXZW/3cW7UI8Ey7ZNc=",
+  "Hash": "n4BFDToJYdf2e2REM8orKU4VopiI4LPjvwvlcFzNCR8=",
   "Source": "trasladoscancun",
   "BasePath": "_content/trasladoscancun",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "trasladoscancun\\wwwroot",
       "Source": "trasladoscancun",
-      "ContentRoot": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\wwwroot\\",
       "BasePath": "_content/trasladoscancun",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\wwwroot\\favicon.ico",
       "SourceId": "trasladoscancun",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\wwwroot\\",
       "BasePath": "_content/trasladoscancun",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

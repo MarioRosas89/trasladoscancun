@@ -8,7 +8,7 @@ import { Places } from './Places';
 import { MatDialog } from '@angular/material/dialog';
 import { MyModalComponent } from '../my-modal/my-modal.component';
 import { Ticket } from './Ticket';
-import { NavigationExtras, Router } from '@angular/router';
+import { Router } from '@angular/router';
 import { PlacesService } from './place.service';
 import { NgxSpinnerService } from 'ngx-spinner';
 @Component({
@@ -51,7 +51,7 @@ export class HomeComponent implements OnInit {
   private _placesData$ = new BehaviorSubject<void>(undefined);
   constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string, public dialog: MatDialog
   ,private _router: Router, private userService: PlacesService,private spinnerService: NgxSpinnerService){
-    
+    console.log(baseUrl);
   }
 
   public placesRequest$ = this.http.get<string[]>(this.baseUrl + 'transports').pipe(
@@ -69,12 +69,10 @@ export class HomeComponent implements OnInit {
   );
 
   getPlaces(){
-    this.spinnerService.show();
     this.userService.getPlaces().subscribe({
       next : (result) => {this.optionsPlaces = result.map(x => x.name)
         this.optionsFull = result.map(x => x.name)
         this.places = result;
-        this.spinnerService.hide();
       }, 
       error : (error) => {console.error(error); this.spinnerService.hide();}
     })

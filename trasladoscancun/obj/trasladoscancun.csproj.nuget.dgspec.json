@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {}
+    "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {
+    "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
+        "projectUniqueName": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
         "projectName": "trasladoscancun",
-        "projectPath": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
-        "packagesPath": "C:\\Users\\mario.rosas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario.rosas\\source\\repos\\trasladoscancun\\trasladoscancun\\obj\\",
+        "projectPath": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mario.rosas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

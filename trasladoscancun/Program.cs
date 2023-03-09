@@ -1,6 +1,5 @@
 using TransferEconomic;
 using TransferEconomic.Data;
-using Twilio.TwiML.Voice;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +7,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>();
-
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("https://localhost:44494/", "https://trasladoseconomicoscancun.com/") // Replace with your own origin
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
 builder.Services.RegisterRepos();
 var app = builder.Build();
 
@@ -17,12 +24,16 @@ if (!app.Environment.IsDevelopment())
 {
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
+    app.UseExceptionHandler("/Error");
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseCors(builder => builder
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller}/{action=Index}/{id?}");

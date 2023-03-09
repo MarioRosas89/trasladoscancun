@@ -19,8 +19,9 @@ namespace TransferEconomic.Controllers
         [HttpGet]
         public async Task<IEnumerable<Places>> Get()
         {
+            _logger.LogInformation("Entro");
             Utils.SendWhatsapp("Entro un usuario");
-            return await _context.Places.Select(x => x).ToListAsync();
+             return await _context.Places.Select(x => x).ToListAsync();
         }
 
     }
