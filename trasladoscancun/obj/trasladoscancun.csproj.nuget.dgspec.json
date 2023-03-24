@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {}
+    "C:\\Users\\mario\\source\\repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {
+    "C:\\Users\\mario\\source\\repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
+        "projectUniqueName": "C:\\Users\\mario\\source\\repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
         "projectName": "trasladoscancun",
-        "projectPath": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
+        "projectPath": "C:\\Users\\mario\\source\\repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
         "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\obj\\",
+        "outputPath": "C:\\Users\\mario\\source\\repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",

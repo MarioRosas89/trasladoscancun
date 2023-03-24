@@ -60,7 +60,7 @@ export class CreateReservationComponent implements OnInit {
     this.form.value.schedule = (moment(this.ticket.dateFrom)).format('YYYY-MM-DDTHH:mm:ss');
       this.http.post<Schedule>(this.baseUrl + 'schedule', this.form.value).subscribe({
       next: () => {this.form.reset();this._router.navigate(['']); this.spinnerService.hide();},
-      error: () => {alert("Ocurrio un problema"); this.spinnerService.hide();}
+      error: (error) => {this._router.navigate(['']);console.log(error); this.spinnerService.hide();}
     })
   }
   

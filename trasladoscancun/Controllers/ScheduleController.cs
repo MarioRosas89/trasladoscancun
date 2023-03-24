@@ -21,13 +21,17 @@ namespace TransferEconomic.Controllers
                 await _scheduleRepository.CreateSchedule(schedule);
                 if (!string.IsNullOrEmpty(schedule.Email))
                 {
-                    var html = $"<h1>Confirmacion reserva<h1> <p>Desde:{schedule.From}</p><p>Hacia:{schedule.To}</p>" +
-                        $"<p>Total:{schedule.Price}</p><p>Fecha:{schedule.DateSchedule}<p>";
+                    var html = $"<h1>Confirmacion reserva<h1> " +
+                        $"<p>Nombre:{schedule.ClientName}"+
+                        $"<p>Desde:{schedule.From}</p>" +
+                        $"<p>Hacia:{schedule.To}</p>" +
+                        $"<p>Total:{schedule.Price}</p>" +
+                        $"<p>Fecha:{schedule.DateSchedule}<p>";
                     //Send email to client
                     Utils.sendEmail(schedule.Email, html);
                     //Send email to driver
                     Utils.sendEmail("mrosasg103@gmail.com", html);
-                    Utils.SendWhatsapp("reservo");
+                    //Utils.SendWhatsapp("reservo");
                 }
                
                 return schedule;

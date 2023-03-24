@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IyKgUNLFwqiE8nFc3R9zcmvpsPlzp1gcQ++fR01KSQqg/c1IVJeuuBxq41D5VRI543P+FF3GCb3rUtqkpoEpHw==",
+  "dgSpecHash": "9DHhEnq4VbtNxecGAfkkhGOi2KG23nj+9U5Ay9dC1G9R8+qk2AidmkncWyA7BgXG3vNFOtIJAIibYFXRt9pyvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mario\\Source\\Repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
+  "projectFilePath": "C:\\Users\\mario\\source\\repos\\MarioRosas89\\trasladoscancun\\trasladoscancun\\trasladoscancun.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mario\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.8\\microsoft.aspnetcore.spaproxy.6.0.8.nupkg.sha512",
